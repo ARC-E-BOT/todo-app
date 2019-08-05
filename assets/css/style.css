@@ -1,0 +1,55 @@
+#main-todo{
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#add-new{
+    padding: 50px;
+    font-size: 90px;
+    background: green;
+    width: 70px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.todo-list{
+    width: 80%;
+}
+
+.trash-box, .check-box, .checked{
+    text-align: center;
+    width: 5%;
+    height: 5%;
+    border: 5px solid rebeccapurple;
+}
+
+.trash-box, .check-box, .text-box, .checked{
+    vertical-align: top;
+    margin: 0.7%;
+    display: inline-block;
+}
+
+.trash-box{
+    background: red;
+}
+
+.check-box{
+    background: gray;
+}
+
+.checked {
+    background: green;
+}
+
+.text-box{
+    width: 83%
+}
+
+.todo-item{
+    background: tan;
+    margin: 5px;
+}
